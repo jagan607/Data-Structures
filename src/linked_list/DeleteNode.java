@@ -14,7 +14,7 @@ public class DeleteNode {
         tempNode.next = null;
     }
 
-    private static void deleteNodeAtGivenPosition(Node prevNode){
+    public static void deleteNodeAtGivenPosition(Node prevNode){
         prevNode.next = prevNode.next.next;
     }
 

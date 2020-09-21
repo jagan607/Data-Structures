@@ -25,7 +25,7 @@ public class Node {
             node3.next = node4;
             node4.next = node5;
             node5.next = node6;
-            if (loop) node6.next = node2;
+            if (loop) node6.next = node;
 
             return node;
         }
@@ -41,6 +41,10 @@ public class Node {
 
     public static void printNodeData(Node node){
         System.out.println(node.data);
+    }
+
+    public static Node getSortedLists(){
+            
     }
 
 
