@@ -43,10 +43,4 @@ public class Node {
         System.out.println(node.data);
     }
 
-    public static Node getSortedLists(){
-            
-    }
-
-
-
 }
