@@ -32,6 +32,8 @@ public class Node {
 
 
 
+
+
     public static void printLinkedList(Node node) {
         while (node != null){
             System.out.println(node.data);
